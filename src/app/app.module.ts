@@ -5,9 +5,6 @@ import { AppComponent } from './app.component';
 import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GridModule } from '@progress/kendo-angular-grid';
-import { FormsModule } from "@angular/forms";
-import { InputsModule } from "@progress/kendo-angular-inputs";
-import { ButtonsModule } from "@progress/kendo-angular-buttons";
 
 
 
@@ -17,13 +14,10 @@ import { ButtonsModule } from "@progress/kendo-angular-buttons";
     AppComponent
   ],
   imports: [
-    FormsModule,
     BrowserModule,
     AppRoutingModule,
     DateInputsModule,
     BrowserAnimationsModule,
-    ButtonsModule,
-    InputsModule,
     GridModule
   ],
   providers: [],
