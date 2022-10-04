@@ -1,1 +1,7 @@
 <h1>Hello Kendo UI for Angular!</h1>
+<kendo-grid [data]="gridData">
+    <kendo-grid-column field="ProductID" title="ID"> </kendo-grid-column>
+    <kendo-grid-column field="ProductName" title="Name"> </kendo-grid-column>
+    <kendo-grid-column field="Category.CategoryName" title="Category"> </kendo-grid-column>
+    <kendo-grid-column field="UnitPrice" title="Price"> </kendo-grid-column>
+</kendo-grid>
